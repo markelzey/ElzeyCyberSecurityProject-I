@@ -71,7 +71,7 @@ The playbook implements the following tasks:
 - Setup to start at system start
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-
+https://github.com/markelzey/ElzeyCyberSecurityProject-I/blob/main/Diagrams/DockerPS.JPG
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -90,4 +90,4 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the elk-install.yml file to the ansible container.
 - Update the hosts file to include VM IP addresses of the webhosts.
-- Run the playbook, and navigate to https://65.52.198.53:5601 to check that the installation worked as expected.
+- Run the playbook, and navigate to https://65.52.198.53:5601/app/kibana to check that the installation worked as expected.
